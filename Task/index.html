@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day02 - Task</title>
+</head>
+<body>
+    <Table border="1">
+        <caption>Students Table</caption>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Section</th>
+            <th>GPA</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Eslam</td>
+            <td rowspan="2">2</td>
+            <td>5.6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Heba</td>
+            <td>6.2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ahmed</td>
+            <td>3</td>
+            <td>3.4</td>
+        </tr>
+    </Table>
+
+    <br/>
+
+    <form>
+        <h2>Registeration Form</h2>
+
+        <label for="Fname">FName : </label>
+        <input type="text" id="Fname" placeholder="Enter First Name" name="FName"/>
+        <br/>
+        <br/>
+        <label for="email">Email : </label>
+        <input type="email" id="email" placeholder="abc@gmail.com" name="Email" value="eslam.saadany22@gmail.com" readonly/>
+        <br/>
+        <br/>
+        <label for="password">Password : </label>
+        <input type="password" id="password" placeholder="Enter 8 digits" name="Password" required/>
+        <br/>
+        <br/>
+        <label >Gender : </label>
+        <br/>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="Male"/>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="Female"/>
+        <br/>
+        <br/>
+        <label >Hobbies : </label>
+        <br/>
+        <label for="football">Football</label>
+        <input type="checkbox" name="Hobbies" id="football" value="Football"/>
+        <label for="basketBall">BasketBall</label>
+        <input type="checkbox" name="Hobbies" id="basketBall" value="BasketBall"/>
+        <label for="volleyBall">VolleyBall</label>
+        <input type="checkbox" name="Hobbies" id="volleyBall" value="VolleyBall"/>
+        <br/>
+        <br/>
+        <label for="country">Country : </label>
+        <select name="Country" id="country">
+            <option>Egypt</option>
+            <option>Germany</option>
+            <option>Palestine</option>
+            <option>USA</option>
+        </select>
+        <br/><!-- Void Element & Self Closing Tag -->
+        <br/>
+        <label for="message">Message : </label>
+        <textarea id="message" name="Message"></textarea>
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
